@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BCOM">
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="B.COM"
+        android:textColor="#08632E"
+        android:textSize="96sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button53"
+        android:layout_width="285dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="8dp"
+        android:text="1ST semester"
+        android:textColor="#C51162"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button54"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button54"
+        android:layout_width="285dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="8dp"
+        android:text="2ND SEMESTER"
+        android:textColor="#00BFA5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button55"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="285dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="8dp"
+        android:text="3RD SEMESTER"
+        android:textColor="#FFD600"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button56"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button56"
+        android:layout_width="285dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="8dp"
+        android:text="4TH SEMESTER"
+        android:textColor="#D50000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button57"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button57"
+        android:layout_width="285dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="8dp"
+        android:text="5TH SEMESTER"
+        android:textColor="#FF6D00"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button58"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button58"
+        android:layout_width="285dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="70dp"
+        android:text="6THSEMESTER"
+        android:textColor="#360350"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

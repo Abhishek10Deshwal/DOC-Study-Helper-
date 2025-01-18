@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="@android:color/white"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Study Helper"
+        android:textColor="@android:color/white"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Continue"
+        android:onClick="clickhere"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:backgroundTint="#FF5722"
+        android:layout_below="@id/editTextTextPersonName2"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"/>
+
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created by"
+        android:textColor="#040302"
+        android:textSize="20sp"
+        android:layout_above="@id/textView6"
+        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vinod"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+
+
+    <!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="60dp"-->
+<!--        android:onClick="clickhere"-->
+<!--        android:shadowColor="#602F2B"-->
+<!--        android:text="continue"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textColorHighlight="#4CAF50"-->
+<!--        android:textColorLink="#F44336"-->
+<!--        android:textSize="34sp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/textView5"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Top Warning Message -->
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="you are not enter your name"
+        android:textColor="#00C853"
+        android:textSize="34sp" />
+
+    <!-- Second Warning Text -->
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView76"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="enter your id password"
+        android:textColor="#FFC800"
+        android:textSize="34sp" />
+
+    <!-- "Login" Title -->
+    <TextView
+        android:id="@+id/textview500"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView77"
+        android:layout_marginTop="32dp"
+        android:text="Login"
+        android:textColor="#D3A519"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/editText500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview500"
+        android:layout_marginTop="32dp"
+        android:hint="Enter username"
+        android:focusable="true"
+        android:textColorHighlight="#101010"
+        android:textColorHint="#0E0D0E"
+        android:textSize="20dp" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/editText501"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText500"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#12010A"
+        android:textSize="20dp" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/button500"
+        android:layout_width="150dp"
+        android:layout_height="76dp"
+        android:layout_below="@id/editText501"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="#2196F3"
+        android:text="login"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

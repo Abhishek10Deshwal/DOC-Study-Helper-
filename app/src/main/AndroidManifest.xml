@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.studyhelper">
+
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/whatsapp_image_2024_12_14_at_16_26_27_f88543e8"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/whatsapp_image_2024_12_14_at_16_26_27_f88543e8"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudyHelper"
+        tools:targetApi="31">
+        <activity
+            android:name=".tiktio" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".text_to_speeck" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".speech_reco" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".googleweb" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".accesweb" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCOM_SEM6" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Secondactivity" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".noticebca" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".login" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MA_SEM1_S6" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MA_SEM1_S5" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MA_SEM1_S4" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MA_SEM1_S3" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MA_SEM1_S2" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MA_SEM1_S1" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BA_SEM6" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BA_SEM5" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BA_SEM4" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BA_SEM3" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BA_SEM2" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BA_SEM1" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCOM_SEM5" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCOM_SEM4" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCOM_SEM3" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCOM_SEM2" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCOM_SEM1" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BSC_SEM6" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BSC_SEM5" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BSC_SEM4" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BSC_SEM3" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BSC_SEM2" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BSC_SEM1" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MA_SEM4" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MA_SEM3" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MA_SEM2" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MA_SEM1" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM5_AS" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM5_NJ" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM5_SPM" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM5_DW" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM5_CC" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM5_CG" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM4_AI" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM4_IT" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM4_CSS" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM4_CN" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM4_COSM" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM4_PJ" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM3_IS" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM3_COOT" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM3_OS" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM3_WD" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM3_CONM" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM3_PC" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM2_MS" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM2_DM" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM2_DBMS" android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM2_se"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM2_CO"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM2_DS"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MA"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BA"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCOM"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BSC"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM6"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM5"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM4"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM3"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM2"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM1_MIS"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM1_TCS"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM1_DE"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM1_PWC"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM1_OA"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM_CF_U4"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM_CF_U3"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM_CF_U2"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA_SEM_1_CF_U1"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".bca_sem_1_CF"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Semester_1st"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BCA"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Classes"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.StudyHelper.BackgroundImageStyle"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+</manifest>

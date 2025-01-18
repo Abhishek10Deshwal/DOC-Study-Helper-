@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Semester_1st">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="342dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="37dp"
+        android:text="1ST SEMESTER"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="click1"
+        android:text="comp. funda."
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="click2"
+        android:text="office auto. "
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="click3"
+        android:text="prog. with c"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="click4"
+        android:text="Digital elet."
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="click5"
+        android:text="TCS"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="100dp"
+        android:onClick="click6"
+        android:text="MIS"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

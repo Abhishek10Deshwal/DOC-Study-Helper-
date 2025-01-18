@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DOC STUDY HELPER</string>
+    <string name="heading">Welcome To Tic Tac Toe</string>
+    <string name="grid">grid</string>
+    <string name="Image">image</string>
+    <string name="reset"> Click Here for Game Reset</string>
+</resources>
